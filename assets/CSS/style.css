@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border:none ;
+}
+
+body {
+    font-family: Montserrat, open-sans;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Montserrat, open-sans;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    float: right; 
+}
+
+#menu, #logo { 
+    line-height: 75px;
+}
+
+#menu li{
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #8c1232;
+}
+
+.active {
+    border-bottom: 1px solid #8c1232;
+}
+
+#banner-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position:relative;
+}
+
+#cover-tex, #cover-tex h2 {
+    color: #fff;
+}
+
+#banner-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/banner2.jpg) no-repeat center center;
+    
+    /* animates zoom effect on loading page */
+    animation-name: banner-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; 
+}
+
+/*creates the level of zoom for hero image */
+@keyframes banner-zoom {
+    from{
+        transform: scale(1)
+    }
+    to{
+        transform: scale(1.1)
+
+    }
+}
+
+/* CDMX info */
+
+#info-cdmx {
+    height: 450px;
+    width: 100%;
+}
+
+#info-cdmx h2{
+    padding: 10px 30px 10px 30px;
+    font-weight: 900;
+}
+
+#info-cdmx p {
+    padding: 10px 30px;
+}
+
+
+iframe {
+    padding-top: 30px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
