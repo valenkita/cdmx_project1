@@ -93,7 +93,7 @@ h1, h2 {
 /* CDMX info */
 
 #info-cdmx {
-    height: 450px;
+    height: 550px;
     width: 100%;
 }
 
@@ -106,12 +106,14 @@ h1, h2 {
     padding: 10px 30px;
 }
 
-
 iframe {
+    float:none;
+    clear: both;
+    position: relative;
     padding-top: 30px;
     display: block;
     margin: 0 auto;
-
+    max-width: 100%;
 }
 
 footer {
@@ -160,6 +162,8 @@ footer {
 
 #places {
     padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #places div {
@@ -329,4 +333,131 @@ footer {
     margin-top: 140px;
     color:#fff;
     transition: all 500ms ease-out;
+}
+
+
+/* Getting around*/
+
+#banner-image-transport {
+    height: 600px;
+    width: 100%;
+    background: url(../images/transport_banner.jpg) no-repeat center center;
+    
+    /* animates zoom effect on loading page */
+    animation-name: banner-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; 
+}
+
+/*creates the level of zoom for hero image */
+@keyframes banner-zoom {
+    from{
+        transform: scale(1)
+    }
+    to{
+        transform: scale(1.1)
+
+    }
+}
+
+#info-transport {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#transport-card {
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: red;
+    height: 600px;
+}
+
+.metro {
+    margin-top: 30px;
+    padding-right: 15px;
+}
+
+#metro-image {
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Sign up*/
+
+
+/* Media queries*/
+
+/* For larger to medium screns size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width:65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+
+}
+
+/* For medium screen sizes from 950px wide and dows */
+@media screen and (max-width: 950px) {
+    
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #info-cdmx {
+        width:90%;
+        height: 1350px;
+        margin: 0 auto;
+    }
+
+    #places > div {
+        width: 100%;
+        clear: both;
+        height: 300px;
+        padding: 0;
+    }
+
+    .title {
+        height:250px
+    }
+
+}
+
+/* For small screen sizes 800px and down */
+@media screen and (max-width: 800px) {
 }
