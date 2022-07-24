@@ -133,3 +133,200 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+/* experiences */
+
+.title {
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    position:relative;
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.section-title {
+    color: #3a3a3a;
+    font-weight: bolder;
+    font-family: 'Open Sans Bold';
+}
+
+#atractions-title img {
+    display: block;
+    margin: 0 auto;
+}
+
+#places {
+    padding-top: 30px;
+}
+
+#places div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#places #bellasartes-container {
+    background: url(../images/bellasartes.jpeg) no-repeat center center;
+}
+
+#places #bellasartes-container #layer-bellas-artes {
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: rgba(238,39,67,0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#places #bellasartes-container:hover > #layer-bellas-artes {
+    opacity: 1;
+    visibility: visible;
+}
+
+#layer-bellas-artes a {
+    color:#fff;
+    text-decoration: none;
+}
+
+#places #bellasartes-container:hover > #layer-bellas-artes h3{
+    margin-top: 140px;
+    color:#fff;
+    transition: all 500ms ease-out;
+}
+
+#places #catedral-container {
+    background: url(../images/catedral.jpeg) no-repeat center center;
+}
+
+#places #catedral-container #layer-catedral {
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(237,29,134,0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#places #catedral-container:hover > #layer-catedral {
+    opacity: 1;
+    visibility: visible;
+}
+
+#layer-catedral a {
+    color:#fff;
+    text-decoration: none;
+}
+
+#places #catedral-container:hover > #layer-catedral h3{
+    margin-top: 140px;
+    color:#fff;
+    transition: all 500ms ease-out;
+}
+
+#places #chapultepec-container {
+    background: url(../images/chapultepec.png) no-repeat center center;
+}
+
+#places #chapultepec-container #layer-chapultepec {
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(239,182,38,0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#places #chapultepec-container:hover > #layer-chapultepec {
+    opacity: 1;
+    visibility: visible;
+}
+
+#layer-chapultepec a {
+    color:#fff;
+    text-decoration: none;
+}
+
+#places #chapultepec-container:hover > #layer-chapultepec h3{
+    margin-top: 140px;
+    color:#fff;
+    transition: all 500ms ease-out;
+}
+
+#places #revolucion-container {
+    background: url(../images/revolucion.jpeg) no-repeat center center;
+}
+
+#places #revolucion-container #layer-revolucion {
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(172,34,132,0.30);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#places #revolucion-container:hover > #layer-revolucion {
+    opacity: 1;
+    visibility: visible;
+}
+
+#layer-revolucion a {
+    color:#fff;
+    text-decoration: none;
+}
+
+#places #revolucion-container:hover > #layer-revolucion h3{
+    margin-top: 140px;
+    color:#fff;
+    transition: all 500ms ease-out;
+}
+
+#places #teotihuacan-container {
+    background: url(../images/teotihuacan.jpeg) no-repeat center center;
+}
+
+#places #teotihuacan-container #layer-teotihuacan {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(133,196,64,0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#places #teotihuacan-container:hover > #layer-teotihuacan {
+    opacity: 1;
+    visibility: visible;
+}
+
+#layer-teotihuacan a {
+    color:#fff;
+    text-decoration: none;
+}
+
+#places #teotihuacan-container:hover > #layer-teotihuacan h3{
+    margin-top: 140px;
+    color:#fff;
+    transition: all 500ms ease-out;
+}
