@@ -93,7 +93,7 @@ nav ul li {
 #banner-image-index {
     height: 500px;
     width: 100%;
-    background: url(/assets/images/banner2.jpg) no-repeat center;
+    background: url(../images/banner2.jpg) no-repeat center;
     /* animates zoom effect on loading page */
     animation-name: banner-zoom;
     animation-duration: 5s;
@@ -167,7 +167,7 @@ footer {
 #banner-image-places {
     height: 500px;
     width: 100%;
-    background: url(/assets/images/banner2.jpg) no-repeat center;
+    background: url(../images/banner2.jpg) no-repeat center;
     /* animates zoom effect on loading page */
     animation-name: banner-zoom;
     animation-duration: 5s;
@@ -607,6 +607,19 @@ footer {
         margin-top: 100px;
     }
 
+    #places > div {
+        width: 100%;
+        clear: both;
+        height: 300px;
+        padding: 0;
+        
+    }
+
+    #places {
+        height: 1600px;
+        margin-top: 50px;
+    }
+
     .block {
         padding-left: 15px;
     }
@@ -698,8 +711,10 @@ footer {
 
     #places {
         height: 1600px;
+        background-color: red;
     }
 
+    
     .title {
         height:10px;
     }
@@ -751,6 +766,5 @@ footer {
         margin-bottom: 5px;
     }
 
-
-
+ 
 }
