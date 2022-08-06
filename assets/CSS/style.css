@@ -124,7 +124,11 @@ nav ul li {
 
 #info-cdmx p {
     padding: 10px 30px 0px 20px;
-   
+}
+
+#info-cdmx a {
+    text-decoration: none;
+    font-weight: bold;
 }
 
 iframe {
@@ -145,8 +149,12 @@ footer {
     height: 80px;
     position:absolute;
     color: white;
-    background-color: black;
+    background-color: #e4007c;
     max-width: 100%;
+}
+
+footer p {
+    padding-top: 10px;
 }
 
 .social-networks {
@@ -189,13 +197,17 @@ footer {
     color: #3a3a3a;
     font-weight: bolder;
     font-family: Montserrat, open-sans;
-    height: 100px;
+    height: 155px;
     width: 100%;    
     font-weight: 900;
     text-align: center;
     padding-top: 10px;
 }
 
+#atractions-title p {
+    padding: 15px;
+}
+ 
 #places {
     padding-top: 30px;
     padding-left: 20px;
@@ -598,6 +610,8 @@ footer {
         margin-right: auto;
     }
 
+    
+
     #atractions-title{
         margin-top: 100px;
         margin-bottom: 15px;
@@ -614,6 +628,33 @@ footer {
         padding: 0;
         
     }
+
+    #places #bellasartes-container #layer-bellas-artes {
+        width: 63%;
+        margin-left: 140px;
+    }
+
+    #places #catedral-container #layer-catedral {
+        width: 63%;
+        margin-left: 140px;
+    }
+
+    #places #chapultepec-container #layer-chapultepec {
+        width: 63%;
+        margin-left: 140px;
+    }
+
+    #places #revolucion-container #layer-revolucion {
+        width: 63%;
+        margin-left: 140px;
+    }
+
+    #places #teotihuacan-container #layer-teotihuacan {
+        width: 63%;
+        margin-left: 140px;
+    }
+
+
 
     #places {
         height: 1600px;
