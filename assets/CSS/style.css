@@ -147,7 +147,7 @@ footer {
     margin-top: 20px;
     width: 100%;
     height: 80px;
-    position:absolute;
+    
     color: white;
     background-color: #e4007c;
     max-width: 100%;
@@ -481,6 +481,7 @@ footer p {
 .form {
     background-color: #129fbd;
     margin: auto;
+    margin-top: 50px;
     width: 90%;
     max-width: 400px;
     padding: 4.5em 3em;
@@ -610,8 +611,6 @@ footer p {
         margin-right: auto;
     }
 
-    
-
     #atractions-title{
         margin-top: 100px;
         margin-bottom: 15px;
@@ -626,7 +625,6 @@ footer p {
         clear: both;
         height: 300px;
         padding: 0;
-        
     }
 
     #places #bellasartes-container #layer-bellas-artes {
@@ -653,8 +651,6 @@ footer p {
         width: 63%;
         margin-left: 140px;
     }
-
-
 
     #places {
         height: 1600px;
@@ -684,7 +680,7 @@ footer p {
 
 
 /* For small screen sizes 667px and down */
-@media only screen and (max-width: 667px) and (min-width: 320px) {
+@media only screen and (max-device-width: 667px) and (min-device-width: 320px) {
 
     h1, h2 {
         font-family: Montserrat, open-sans;
@@ -710,11 +706,11 @@ footer p {
         display:block; 
     }
 
-    ul {
-        position:fixed;
+   ul {
+        position: fixed;
         width: 100%;
         height: 100vh;
-        background-color: #e4007c;
+        background-color: green;
         top: 80px;
         left: -100%;
         text-align: center;
@@ -736,7 +732,7 @@ footer p {
    
     li a:hover, li a.active {
         background: none;
-        color: red;
+        color: white;
     }
 
     #check:checked ~ ul {
@@ -752,7 +748,6 @@ footer p {
 
     #places {
         height: 1600px;
-        background-color: red;
     }
 
     
@@ -762,8 +757,8 @@ footer p {
 
      #atractions-title{
         margin-bottom: 5px;
+        height: 280px;
      }
-
 
     #banner-image-index {
         animation-name: banner-zoom;
