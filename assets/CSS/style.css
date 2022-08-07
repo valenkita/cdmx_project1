@@ -578,10 +578,12 @@ footer p {
 @media only screen and (max-width: 1920px) and (min-width: 1368px) {
    
 
+
+
 }
 
 /* For medium screen sizes from 1024px wide and dows */
-@media only screen and (max-width: 1024px) and (min-width: 720px) {
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
 
     .logo{
         padding-left: 20px;
@@ -613,11 +615,17 @@ footer p {
 
     #atractions-title{
         margin-top: 100px;
-        margin-bottom: 15px;
+        margin-bottom: 30px;
      }
 
     #info-transport h2{
         margin-top: 100px;
+    }
+
+    #places {
+        height: 1600px;
+        margin-top: 50px;
+        margin-top: 90px;
     }
 
     #places > div {
@@ -628,35 +636,31 @@ footer p {
     }
 
     #places #bellasartes-container #layer-bellas-artes {
-        width: 63%;
-        margin-left: 140px;
+        width: 67%;
+        margin-left: 120px;
     }
 
     #places #catedral-container #layer-catedral {
-        width: 63%;
-        margin-left: 140px;
+        width: 67%;
+        margin-left: 120px;
     }
 
     #places #chapultepec-container #layer-chapultepec {
-        width: 63%;
-        margin-left: 140px;
+        width: 67%;
+        margin-left: 120px;
     }
 
     #places #revolucion-container #layer-revolucion {
-        width: 63%;
-        margin-left: 140px;
+        width: 67%;
+        margin-left: 120px;
     }
 
     #places #teotihuacan-container #layer-teotihuacan {
-        width: 63%;
-        margin-left: 140px;
+        width: 67%;
+        margin-left: 120px;
     }
 
-    #places {
-        height: 1600px;
-        margin-top: 50px;
-    }
-
+    
     .block {
         padding-left: 15px;
     }
@@ -680,7 +684,7 @@ footer p {
 
 
 /* For small screen sizes 667px and down */
-@media only screen and (max-device-width: 667px) and (min-device-width: 320px) {
+@media only screen and (max-device-width: 480px) and (min-device-width: 320px) {
 
     h1, h2 {
         font-family: Montserrat, open-sans;
@@ -710,7 +714,7 @@ footer p {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background-color: green;
+        background-color: #e4007c;
         top: 80px;
         left: -100%;
         text-align: center;
