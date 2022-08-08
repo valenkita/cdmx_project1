@@ -138,19 +138,17 @@ iframe {
     display: block;
     margin: 0 auto;
     max-width: 100%;
-    
 }
 
 /* footer */
 
 footer {
     margin-top: 20px;
-    width: 100%;
     height: 80px;
-    
     color: white;
     background-color: #e4007c;
     max-width: 100%;
+    position: relative;
 }
 
 footer p {
@@ -429,7 +427,6 @@ footer p {
 .transport-image {
     width: 150px;
     height: 150px;
-    position: 0 auto;
 }
 
 .block {
@@ -488,6 +485,7 @@ footer p {
     border-radius: 10px;
     box-shadow: 0 5px 10px -5px rgba(0 0 0 / 30%);
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .form_title {
@@ -501,7 +499,6 @@ footer p {
     margin-top: 3em;
     display: grid;
     gap: 2.5em;
-
 }
 
 .form_group {
@@ -570,16 +567,24 @@ footer p {
 }
 
 
-
 /* Media queries*/
 
 
 /* For larger to medium screns size from 1200px wide and down */
 @media only screen and (max-width: 1920px) and (min-width: 1368px) {
+
+#banner-image-signup {
+    margin-top: 500px;
+}
+
+#banner-outer-signup {
+    margin-top: 500px;
+}
+
+.form {
+    margin-top: 500px;
+}
    
-
-
-
 }
 
 /* For medium screen sizes from 1024px wide and dows */
@@ -616,6 +621,7 @@ footer p {
     #atractions-title{
         margin-top: 100px;
         margin-bottom: 30px;
+        margin-left: 15px;
      }
 
     #info-transport h2{
@@ -624,8 +630,8 @@ footer p {
 
     #places {
         height: 1600px;
-        margin-top: 50px;
         margin-top: 90px;
+        margin-bottom: 20px;
     }
 
     #places > div {
@@ -673,18 +679,25 @@ footer p {
     }
 
     #banner-image-signup{
-        margin-top: 5px;
+        margin-top: 30px;
         margin-bottom: 10px;
-  
     }
 
-    
+    .form {
+        margin-top: 50px;
+        position: relative;
+    }
+
+    footer {
+        margin-top: 180px;
+        position: relative;
+    }
 
 }
 
 
 /* For small screen sizes 667px and down */
-@media only screen and (max-device-width: 480px) and (min-device-width: 320px) {
+@media only screen and (max-width: 480px) and (min-width: 320px) {
 
     h1, h2 {
         font-family: Montserrat, open-sans;
