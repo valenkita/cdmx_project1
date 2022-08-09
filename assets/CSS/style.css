@@ -204,6 +204,7 @@ footer p {
 
 #atractions-title p {
     padding: 15px;
+    font-family: Montserrat, open-sans;
 }
  
 #places {
@@ -494,6 +495,11 @@ footer p {
     color:#fff;
 }
 
+.form p {
+    font-family: Montserrat, open-sans;
+    color: #fff;
+}
+
 
 .form_container {
     margin-top: 3em;
@@ -574,15 +580,15 @@ footer p {
 @media only screen and (max-width: 1920px) and (min-width: 1368px) {
 
 #banner-image-signup {
-    margin-top: 500px;
+    margin-top: 50px;
 }
 
 #banner-outer-signup {
-    margin-top: 500px;
+    margin-top: 50px;
 }
 
 .form {
-    margin-top: 500px;
+    margin-top: 70px;
 }
    
 }
@@ -716,6 +722,7 @@ footer p {
 
     #info-cdmx{
         height: 1650px;
+        margin-bottom: 30px;
     }
  
 
