@@ -147,7 +147,7 @@ Works well on the three browsers
 
 | **Bug / Issue**                                            | **Solution / possible solution**                                                        | **Is it fix?** |
 |------------------------------------------------------------|-----------------------------------------------------------------------------------------|----------------|
-| The footer for small devises (text and icons) doesn't appear | This issue is due to the position of the “Burger menu” and the position of the footer.  | No             |
+| The footer for small devises (text and icons) doesn't appear | This issue was fixed adding heading to the ul in the CSS file.  | Yes             |
 |                                                            |                                                                                         |                |
 |                                                            |                                                                                         |                |
 
